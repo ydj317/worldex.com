@@ -10,7 +10,10 @@
       "Bash(npm run *)",
       "Bash(npm view *)",
       "Bash(npm list *)",
-      "Bash(python *)"
+      "Bash(python *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
