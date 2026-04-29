@@ -35,8 +35,7 @@ const nav = [
   <header class="header" :class="{ scrolled }">
     <div class="container header-inner">
       <router-link to="/" class="logo">
-        <img src="/logo.png" alt="탑월드" class="logo-img" />
-        <span class="logo-text">TOPWORLD</span>
+        <img src="/logo.png" alt="WorldEx" class="logo-img" />
       </router-link>
 
       <nav class="nav-desktop">
@@ -70,8 +69,7 @@ const nav = [
       <aside v-if="mobileOpen" class="drawer">
         <div class="drawer-head">
           <router-link to="/" class="logo">
-            <img src="/logo.png" alt="탑월드" class="logo-img" />
-            <span class="logo-text">TOPWORLD</span>
+            <img src="/logo.png" alt="WorldEx" class="logo-img" />
           </router-link>
           <button class="close" @click="mobileOpen = false" aria-label="close">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
@@ -126,7 +124,7 @@ const nav = [
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 72px;
   gap: 16px;
 }
 
@@ -137,14 +135,8 @@ const nav = [
   flex-shrink: 0;
 }
 .logo-img {
-  height: 26px;
+  height: 40px;
   width: auto;
-}
-.logo-text {
-  color: #fff;
-  font-weight: 800;
-  font-size: 17px;
-  letter-spacing: 0.06em;
 }
 
 .nav-desktop {
@@ -252,11 +244,8 @@ const nav = [
   padding: 16px 20px;
   border-bottom: 1px solid var(--color-border);
 }
-.drawer-head .logo-text {
-  color: var(--color-text);
-}
 .drawer-head .logo-img {
-  filter: brightness(0);
+  height: 36px;
 }
 .close {
   width: 40px;
@@ -336,8 +325,7 @@ const nav = [
 }
 
 @media (max-width: 480px) {
-  .logo-img { height: 22px; }
-  .logo-text { font-size: 15px; }
-  .header-inner { height: 56px; }
+  .logo-img { height: 32px; }
+  .header-inner { height: 60px; }
 }
 </style>

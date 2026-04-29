@@ -9,7 +9,8 @@
       "Bash(npm install *)",
       "Bash(npm run *)",
       "Bash(npm view *)",
-      "Bash(npm list *)"
+      "Bash(npm list *)",
+      "Bash(python *)"
     ]
   }
 }
