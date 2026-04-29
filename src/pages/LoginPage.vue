@@ -29,7 +29,7 @@ const submit = (e) => {
         <h1>투명한 스케줄,<br />합리적인 운임으로<br /><span class="grad">더 빠른 무역.</span></h1>
         <p class="lead">
           1,900개 이상의 화주사가 신뢰하는<br />
-          디지털 포워딩 파트너 월드익스와 함께하세요.
+          디지털 포워딩 파트너 월덱스와 함께하세요.
         </p>
         <ul class="bullets">
           <li>
@@ -108,7 +108,7 @@ const submit = (e) => {
             </label>
             <label class="field" v-if="mode === 'signup'">
               <span>회사명</span>
-              <input type="text" placeholder="(주)월드익스" required />
+              <input type="text" placeholder="(주)월덱스" required />
             </label>
             <label class="field">
               <span>비밀번호</span>

@@ -121,7 +121,7 @@ const copyCode = async () => {
           </h1>
           <p class="lead">
             REST · Webhook · SDK. 운임 조회부터 부킹·추적·송금까지,
-            월드익스 API 한 세트로 자사 시스템에 묶어둡니다.
+            월덱스 API 한 세트로 자사 시스템에 묶어둡니다.
           </p>
           <div class="actions">
             <router-link to="/login" class="btn btn-accent">API 키 발급받기</router-link>

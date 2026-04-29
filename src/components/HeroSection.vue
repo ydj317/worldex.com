@@ -46,7 +46,7 @@ const submit = () => {
         </span>
         <h1>
           항로는 매일 바뀌어도,<br />
-          월드익스의 운임은<br />
+          월덱스의 운임은<br />
           <em>흔들리지 않습니다.</em>
         </h1>
         <p class="lead">
