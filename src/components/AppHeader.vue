@@ -110,15 +110,16 @@ const nav = [
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(15, 30, 58, 0.85);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   transition: background 0.3s ease, box-shadow 0.3s ease;
   padding-top: var(--safe-top);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 .header.scrolled {
-  background: rgba(15, 30, 58, 0.95);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 .header-inner {
   display: flex;
@@ -133,9 +134,6 @@ const nav = [
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  background: #fff;
-  padding: 6px 14px;
-  border-radius: 10px;
 }
 .logo-img {
   height: 40px;
@@ -152,14 +150,14 @@ const nav = [
   justify-content: center;
 }
 .nav-desktop a {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(0, 0, 0, 0.78);
   font-size: 15px;
   font-weight: 500;
   transition: color var(--transition);
   position: relative;
   padding: 8px 0;
 }
-.nav-desktop a:hover { color: #fff; }
+.nav-desktop a:hover { color: #000; }
 .nav-desktop a::after {
   content: '';
   position: absolute;
@@ -178,12 +176,12 @@ const nav = [
   gap: 16px;
 }
 .login {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-weight: 600;
   padding: 8px 0;
 }
-.login:hover { color: #fff; }
+.login:hover { color: #000; }
 .signup {
   padding: 9px 18px;
   font-size: 14px;
@@ -204,7 +202,7 @@ const nav = [
   display: block;
   width: 22px;
   height: 2px;
-  background: #fff;
+  background: #000;
   border-radius: 2px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
