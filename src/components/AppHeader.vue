@@ -129,14 +129,18 @@ const nav = [
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+  background: #fff;
+  padding: 6px 14px;
+  border-radius: 10px;
 }
 .logo-img {
   height: 40px;
   width: auto;
+  display: block;
 }
 
 .nav-desktop {

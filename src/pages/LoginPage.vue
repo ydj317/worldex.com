@@ -202,8 +202,11 @@ const submit = (e) => {
   align-items: center;
   gap: 10px;
   margin-bottom: 32px;
+  background: #fff;
+  padding: 6px 14px;
+  border-radius: 10px;
 }
-.brand img { height: 44px; }
+.brand img { height: 44px; display: block; }
 .left h1 {
   font-size: 48px;
   font-weight: 800;

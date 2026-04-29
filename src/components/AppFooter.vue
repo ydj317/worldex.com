@@ -107,13 +107,17 @@ const cols = [
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
+  background: #fff;
+  padding: 6px 14px;
+  border-radius: 10px;
 }
 .logo img {
   height: 44px;
+  display: block;
 }
 .tagline {
   color: rgba(255, 255, 255, 0.65);
